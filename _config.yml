@@ -12,8 +12,8 @@ description: My blog of computing with Mr Keen
 avatar: http://findicons.com/files/icons/1072/face_avatars/300/d05.png 
 
 # Code  for storage of image assets
-post_assets:images
-general_assets:images
+post_assets: images
+general_assets: images
 #
 
 # Includes an icon in the footer for each username you enter
