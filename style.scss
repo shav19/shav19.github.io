@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	background:#ff6600 ;
+	background:#fffaf7;
   font: verdana;
   color: $darkGray;
 }
@@ -31,7 +31,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: $verdana;
   color: #0099ff;
   font-weight: bold;
 
@@ -61,19 +61,20 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $blue;
+  color: $darkGray;
 }
 
 p {
+  font-size: 18px;
   margin: 18px 0;
 }
 
 a {
-  color: $blue;
+  color: $darkGray;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $darkGray;
   }
 }
 
