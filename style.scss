@@ -17,6 +17,28 @@ html {
   font-size: 100%;
 }
 
+/* TEST TABLE ADD 28032017 - START - */
+//colors
+$color_alto_approx: #ddd;
+$color_curious_blue_approx: #25a1ce;
+
+//fonts
+$font_0: $Georgia;
+
+#table1 {
+	td {
+		font-family: $font_0;
+		font-size: 16px;
+		border: $color_alto_approx solid 1px;
+		padding: 8px;
+	}
+	col:nth-child(odd) {
+		background: $color_curious_blue_approx;
+	}
+}
+
+/* TTEST TABLE ADD 28032017 - END */
+
 body {
   background-color: #d2e1dd ;
   font: 18px/1.4 $Georgia;
